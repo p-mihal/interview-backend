@@ -2,8 +2,13 @@
 
 ## Available endpoints: ##
 
+List all products:
 localhost:8080/products
+
+Product detail:
 localhost:8080/products/{id}
+
+Price of product for unit:
 localhost:8080/products/{id}/prices?unit={unit}
 
 ## Requirements: ##
